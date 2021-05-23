@@ -1,0 +1,33 @@
+form {
+  background: #2f847c6e;
+}
+
+button {
+  width: 200px;
+  height: 45px;
+}
+
+form input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 50%;
+  border-bottom: olive 1px solid;
+  border-radius: 4px;
+  z-index: 2;
+}
+
+form label {
+  transition: all ease-in-out 0.3s;
+  text-transform: capitalize;
+}
+
+.SectionForm {
+  padding: 35px 7rem;
+}
+
+@media only screen and (max-width: 765px) {
+  .SectionForm {
+    padding: 15px;
+  }
+}

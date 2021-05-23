@@ -1,0 +1,9 @@
+article {
+  background: #2f847c6e;
+}
+
+.BtnEdit,
+.BtnDelete {
+  width: 30px;
+  height: 30px;
+}

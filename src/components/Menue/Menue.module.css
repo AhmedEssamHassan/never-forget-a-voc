@@ -1,0 +1,38 @@
+.MenueContainer {
+  background: #2f847c6e;
+  overflow: hidden;
+  transition: max-height 0.3s linear;
+  padding-bottom: 0%;
+}
+
+ul {
+  list-style: none;
+  height: auto;
+}
+
+.MenueItem {
+  height: 35px;
+  border-top: honeydew 1px solid;
+  border-left: honeydew 1px solid;
+  border-right: honeydew 1px solid;
+  transition: all 0.3s linear;
+}
+
+.MenueItem:last-of-type {
+  border-bottom: honeydew 1px solid;
+}
+
+.MenueItem:hover {
+  cursor: pointer;
+  background-color: teal;
+}
+
+.MenueItem:hover p {
+  transform: translateX(15px);
+}
+
+.MenueItem p {
+  transition: all 0.3s linear;
+  margin: 0;
+  margin-left: 10px;
+}
